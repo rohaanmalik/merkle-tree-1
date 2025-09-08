@@ -1,5 +1,4 @@
 import { ethers } from "ethers";
-import { StandardMerkleTree } from "@openzeppelin/merkle-tree";
 import fs from "fs";
 import dotenv from "dotenv";
 
@@ -16,23 +15,18 @@ const ABI = [
 
 async function verifyOnChain(address: string, amount: string) {
   try {
-    // Load tree data
-    const treeData = JSON.parse(fs.readFileSync("tree.json", "utf8"));
-    const tree = StandardMerkleTree.load(treeData.tree);
+    // Load distribution built with double-hashed leaves
+    const dist = JSON.parse(fs.readFileSync("distribution.json", "utf8"));
     
-    // Find the entry in our data
-    const entryIndex = treeData.entries.findIndex((entry: any) => 
-      entry.address.toLowerCase() === address.toLowerCase() && 
-      entry.amount === amount
-    );
+    // Lookup claim record
+    const claim = dist.claims[address];
     
-    if (entryIndex === -1) {
-      console.log("❌ Entry not found in tree data");
+    if (!claim || claim.amount !== amount) {
+      console.log("❌ Entry not found in distribution or amount mismatch");
       return false;
     }
     
-    // Generate proof
-    const proof = tree.getProof(entryIndex);
+    const proof = claim.proof;
     
     console.log("🔍 Verifying on-chain:");
     console.log("Address:", address);

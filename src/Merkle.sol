@@ -11,9 +11,7 @@ contract Merkle {
     }
 
     function verify(bytes32[] calldata proof, address account, uint256 amount) public view returns (bool) {
-        bytes32 leafHash = keccak256(
-            bytes.concat(keccak256(abi.encode(account, amount)))
-        );
+        bytes32 leafHash = keccak256(bytes.concat(keccak256(abi.encode(account, amount))));
         return MerkleProof.verify(proof, ROOT, leafHash);
     }
 }

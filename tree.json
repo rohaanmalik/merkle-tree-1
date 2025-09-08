@@ -1,145 +1,58 @@
 {
-  "root": "0xd154f63929fd3d7e582ec8155748bfd0805efc6cfbdf720bac4fee09cc162554",
+  "root": "0xe8532f0d0f5fb51ae42db661624e2540977f3abfc2625d69bf43a8d04d796b7b",
   "entries": [
     {
-      "address": "0x31F22586537DF40aDAD550BaB056df61f4a2f93D",
-      "amount": "61"
+      "address": "0x38Fe742fC7b69f236Fc08795674408f29def0f75",
+      "amount": "46272400000000000000"
     },
     {
-      "address": "0x1a62140c07A59369aaC7B54bA4272a911b1F7B09",
-      "amount": "66"
+      "address": "0xE8d0BcFB4bDfcD089a4Bc5AB8F7ae0D68a095a6f",
+      "amount": "93619200000000000000"
     },
     {
-      "address": "0x8e76D6202348F3459085Dc518Ea5924f6E908aB5",
-      "amount": "37"
+      "address": "0xD1E09aFd2fC23F640503fDb92CDA145DE8166B6C",
+      "amount": "81653800000000000000"
     },
     {
-      "address": "0x2bab55E79Ecd00573E5a4855fb46018AbE0E728B",
-      "amount": "25"
+      "address": "0x3C976892c2F02621BE0efB64A49eF8E2250A24c7",
+      "amount": "64050100000000000000"
     },
     {
-      "address": "0xF13Cb4E8187E9a4D6e0A25b0A5c791A1c1fd9e7e",
-      "amount": "69"
+      "address": "0xe289b51b31EF733BD17e5C85D0E71c12505bE042",
+      "amount": "98845800000000000000"
     },
     {
-      "address": "0xeF64Af75e1E9EA7f8Eea027FedB7145253b6d4d1",
-      "amount": "100"
+      "address": "0xa424fA7698f2B16a0E02C5701f3Ae8d8bb15B0de",
+      "amount": "51919000000000000000"
     },
     {
-      "address": "0x56b94DEb5A7C232494d15B1e26E81B0122345830",
-      "amount": "98"
+      "address": "0xB72FEA1864f983f978273db726B9E747Ae8F6a30",
+      "amount": "64726500000000000000"
     },
     {
-      "address": "0xcbf3f1306cC80141bc9f41E9df60122b50e582aa",
-      "amount": "72"
+      "address": "0xDaF3d0Ce3e4b0E76e3B248060886c8Acb9BAE334",
+      "amount": "155700000000000000"
     },
     {
-      "address": "0xAB8edbEbAA3C1eEe9B52e4Ee61f2F04d9a6914c0",
-      "amount": "80"
+      "address": "0xfe44fCFD9F0Bc3B4746fffc9260eC803864A4d37",
+      "amount": "14295500000000000000"
     },
     {
-      "address": "0x938D2fB4De59A1A45b22D0c37F0dc09eF38C82E4",
-      "amount": "34"
+      "address": "0x027E08dE0dDF45Ed075B7fb2C1eB36F188eba134",
+      "amount": "70247200000000000000"
     }
   ],
-  "tree": {
-    "format": "standard-v1",
-    "leafEncoding": [
-      "address",
-      "uint256"
-    ],
-    "tree": [
-      "0xd154f63929fd3d7e582ec8155748bfd0805efc6cfbdf720bac4fee09cc162554",
-      "0x3a8951ee27f17188660a598f05aafa40be2cfca35119fa27159aa62c3fd51a8b",
-      "0x568d3d65c84049e144a7287c817713a5b15decb8c5bceebecc0e17b3130e2f25",
-      "0xf0b481b32d0812b6e079a43fbb822e795a3ddca32e9b89a0d5bd4dc12ad4feca",
-      "0x024b54b88b37ea63b5d6a97c86260825abbfd06919f552b443d178f7549be321",
-      "0xa0fbae7da55d7126dd86e321a2412b8297c88a6954a07c7b8cd479e5bb8b86cb",
-      "0xb5ec9a2f3af2ca0c699b09ea8c0bb9bff210bed0b427ce5263eaa407fa53d587",
-      "0x39b5822c8e7c98389f4fddce36c34cd1a30582a103341fab39845a7a1c734a78",
-      "0xfc67a24c5ef21c99f0f3dc39d18fb69d904d5a96036ec47e7c85dc66cd9400cb",
-      "0xf0d31539e83efb00593bbdff1920a2acedfba6fee734076dbb0fa029937e4ad5",
-      "0xdaa1c24c26a15e62d6a29f34160b31cf6bd974f869b3290d6d5ecc2311ed4a65",
-      "0xcf969053d0c49ebf4f47052a328fa466e97a6f1486dc874a79a3676e9a00da4c",
-      "0xc846c8da3bb8ee4e7405b09e4ee0861f827d4d4c70268622265a1d7d489e74a7",
-      "0x9218f34b7ff5096e55de249152e7f736de1fd9bc849594f347d29f44b62393d4",
-      "0x8e06af192c20bafd782bd9addf2448ed55b1fc72468848e748c48bf350e41766",
-      "0x083e86e4e06421cb79c9159595bb11e46fb3e8cd35405081e7bb1f692cfd41e4",
-      "0x05dd817675b744cb194259fca45fb7974ae845e70774f507f8dd2de83d6c99ad",
-      "0x05b2b7ccf43b4abd74c27f11de68bda0cef637222eb8676488a80c96b718e4b1",
-      "0x032079379c80bc5f0f21c15bbbd680ab76280aa6fd7e1f9c77534df52fb907d9"
-    ],
-    "values": [
-      {
-        "value": [
-          "0x31F22586537DF40aDAD550BaB056df61f4a2f93D",
-          "61"
-        ],
-        "treeIndex": 9
-      },
-      {
-        "value": [
-          "0x1a62140c07A59369aaC7B54bA4272a911b1F7B09",
-          "66"
-        ],
-        "treeIndex": 16
-      },
-      {
-        "value": [
-          "0x8e76D6202348F3459085Dc518Ea5924f6E908aB5",
-          "37"
-        ],
-        "treeIndex": 14
-      },
-      {
-        "value": [
-          "0x2bab55E79Ecd00573E5a4855fb46018AbE0E728B",
-          "25"
-        ],
-        "treeIndex": 13
-      },
-      {
-        "value": [
-          "0xF13Cb4E8187E9a4D6e0A25b0A5c791A1c1fd9e7e",
-          "69"
-        ],
-        "treeIndex": 18
-      },
-      {
-        "value": [
-          "0xeF64Af75e1E9EA7f8Eea027FedB7145253b6d4d1",
-          "100"
-        ],
-        "treeIndex": 11
-      },
-      {
-        "value": [
-          "0x56b94DEb5A7C232494d15B1e26E81B0122345830",
-          "98"
-        ],
-        "treeIndex": 17
-      },
-      {
-        "value": [
-          "0xcbf3f1306cC80141bc9f41E9df60122b50e582aa",
-          "72"
-        ],
-        "treeIndex": 10
-      },
-      {
-        "value": [
-          "0xAB8edbEbAA3C1eEe9B52e4Ee61f2F04d9a6914c0",
-          "80"
-        ],
-        "treeIndex": 12
-      },
-      {
-        "value": [
-          "0x938D2fB4De59A1A45b22D0c37F0dc09eF38C82E4",
-          "34"
-        ],
-        "treeIndex": 15
-      }
-    ]
-  }
+  "leaves": [
+    "0x34ad3f8b1c2b04e59f901b623ac07fd46f1e34d946c8211869b5d7a858dc81cd",
+    "0xe8fbf6a9e5ba961ff6185b30c8f1ff87a81656413e596a200a3af91703a17d5e",
+    "0x2ac4e16c1926c9522f87271fa088fe7d2536975a31f834ae63d7bfebb374b089",
+    "0xb59f25aaaa154820a051ebc7410dfa6e0d20c0298c7d7d9a7f2271bd46232fcd",
+    "0x8d68f4df751bdc17aee1a269db85811de4dc74f676ecb494158a45364b175ca9",
+    "0x86cda3e84690cb4cc0c92b62f41272bcdafb058a62dca23123dc8a3445eed663",
+    "0x910a05ffebdcb5685c5590aa3114a575f797bac16c0348e1dcf910d50f83bc90",
+    "0x6a5c45ce4b526be6e4f1feccaa9669716fecd0232165058cdcf2b8dafaeeaa3b",
+    "0xdda0a47d1275f832633f4b0f18a4a376631a80098df274e75f0c99d49e104709",
+    "0x852bcd1402cb66bc0cd09fa96f42904d040de8acea40f4525d8e6437647872f6"
+  ],
+  "depth": 4
 }

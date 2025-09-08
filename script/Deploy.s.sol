@@ -8,14 +8,14 @@ contract Deploy is Script {
     function run() external {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         bytes32 merkleRoot = vm.envBytes32("MERKLE_ROOT");
-        
+
         vm.startBroadcast(deployerPrivateKey);
-        
+
         Merkle merkle = new Merkle(merkleRoot);
-        
+
         console.log("Deployed Merkle at:", address(merkle));
         console.log("Merkle Root:", vm.toString(merkleRoot));
-        
+
         vm.stopBroadcast();
     }
 }

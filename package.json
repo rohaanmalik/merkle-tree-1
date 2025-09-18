@@ -8,13 +8,22 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "forge test",
+    "build": "forge build",
+    "generate": "npx ts-node scripts/generate-merkle-tree.ts",
+    "generate:verbose": "npx ts-node scripts/generate-merkle-tree.ts --verbose",
+    "generate:test-data": "npx ts-node scripts/generate-test-data.ts",
+    "verify": "npx ts-node scripts/verify.ts",
+    "verify:all": "npx ts-node scripts/verify.ts",
+    "verify-contract": "npx ts-node scripts/contract-verify.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@openzeppelin/merkle-tree": "^1.0.8",
+    "commander": "^14.0.0",
+    "csv-parser": "^3.2.0",
     "dotenv": "^17.2.2",
     "ethers": "^6.15.0",
     "typescript": "^5.9.2"

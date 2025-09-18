@@ -15,12 +15,15 @@
     "generate:test-data": "npx ts-node scripts/generate-test-data.ts",
     "verify": "npx ts-node scripts/verify.ts",
     "verify:all": "npx ts-node scripts/verify.ts",
-    "verify-contract": "npx ts-node scripts/contract-verify.ts"
+    "verify-contract": "npx ts-node scripts/contract-verify.ts",
+    "split": "npx ts-node scripts/split-distribution.ts",
+    "split:upload": "npx ts-node scripts/split-distribution.ts --upload"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/storage": "^7.17.1",
     "@openzeppelin/merkle-tree": "^1.0.8",
     "commander": "^14.0.0",
     "csv-parser": "^3.2.0",

@@ -75,11 +75,7 @@ contract DeusdMerkleDistributor is Ownable2Step {
     /// @param _token The token address (DEUSD).
     /// @param _owner The owner address.
     /// @param _signer The initial signer address (can be updated later).
-    constructor(bytes32 _merkleRoot,
-                address _token,
-                address _owner,
-                address _signer
-    ) Ownable(_owner) {
+    constructor(bytes32 _merkleRoot, address _token, address _owner, address _signer) Ownable(_owner) {
         if (_token == address(0)) revert InvalidToken();
         MERKLE_ROOT = _merkleRoot;
         TOKEN = IERC20(_token);

@@ -93,4 +93,3 @@ function printSummary() {
     console.log(`  • GCP bucket: gs://${options.bucket}/${options.path}`);
   }
 }
-

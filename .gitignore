@@ -45,3 +45,5 @@ artifacts/
 
 # Generated data
 generated/
+broadcast/
+.direnv
